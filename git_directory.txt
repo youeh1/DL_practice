@@ -18,3 +18,10 @@ To change the file name -
 -------------------------
 
   git mv "old file name" "new file name"
+
+
+
+- you should play in the repository
+- a folder itself is not updated but if a file in the folder is updated,
+  then the folder is also created.
+- subfolders in the remote repo are not related to location
