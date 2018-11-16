@@ -1,0 +1,20 @@
+-------------------
+To create SSH key -
+-------------------
+# ssh-key generation
+  ssh-keygen -t rss -b 4096 -C "jaehpark0217@gmail.com"
+
+# add the ssh-key to the ssh-agent
+  eval "$(ssh-agent -s)"
+  ssh-add ~/.ssh/ida_rsa
+
+# copy the ssh-keygen
+  cat ~/.ssh/id_rsa.pub
+
+# paste the ssh-key in the repository in the github
+
+-------------------------
+To change the file name -
+-------------------------
+
+  git mv "old file name" "new file name"
