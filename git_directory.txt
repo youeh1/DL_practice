@@ -19,6 +19,20 @@ To change the file name -
 
   git mv "old file name" "new file name"
 
+---------------------------
+To add another repository -
+---------------------------
+# create a new repository in Github first
+# clone its contents to a local repository
+  git clone "the address of the remote repo"
+# create a file and push to the local repository
+  emacs first.txt
+  git add .
+  git commit -m "first testing"
+  git push -> id and password
+
+
+
 
 11/16 what I learn from
 - you should play in the repository
