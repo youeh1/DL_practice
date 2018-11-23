@@ -31,9 +31,19 @@ To add another repository -
   git commit -m "first testing"
   git push -> id and password
 
+---------------------
+block comment lines -
+---------------------
 
+# use a default short cut
+  ctrl+/
+# use a package
+  - install block-comment-lines
+  - shift + alt + b
 
+  
 
+--------------------------------------------------------------------------------
 11/16 what I learn from
 - you should play in the repository
 - a folder itself is not updated but if a file in the folder is updated,
